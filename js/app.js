@@ -49,10 +49,10 @@ if (age===true){
 let live=prompt('Do i live in Jordan? '+userName.toUpperCase());
 live=live.toLowerCase();
 
-if (live==='yes'){
+if (live==='yes'|| live==='y'){
   alert(userName + ',It is correct');
 
-}else if (live==='no'){
+}else if (live==='no' || live==='n'){
 //   console.log(live);
   alert('Wrong answer');
 
@@ -66,11 +66,11 @@ if (live==='yes'){
 let travel=prompt('Do you think i like to travel ' + userName.toUpperCase() +'?');
 travel=travel.toUpperCase();
 
-if (travel==='YES' /*&& travel==='Y'*/){
+if (travel==='YES' || travel==='Y'){
 //   console.log(travel);
   alert('Yes i like travelling.');
 
-}else if(travel==='NO' /*&& travel==='N'*/){
+}else if(travel==='NO' || travel==='N'){
 //   console.log(travel);
   alert('Wrong maybe next time. '+ userName.toUpperCase());
 
@@ -84,11 +84,11 @@ if (travel==='YES' /*&& travel==='Y'*/){
 let speak=prompt('Do you think ' +userName+ ' that i speak German?');
 speak=speak.toLowerCase();
 
-if (speak==='yes') {
+if (speak==='yes' || speak==='n') {
 //   console.log(speak);
   alert('Yes i do');
 
-}else if (speak==='no') {
+}else if (speak==='no'|| speak==='y') {
 //   console.log(speak);
   alert('Wrong answer');
 } else {
@@ -102,11 +102,11 @@ if (speak==='yes') {
 let food=prompt('Do you think i like Mansaf With chicken');
 food=food.toLowerCase();
 
-if (food==='yes') {
+if (food==='yes' || food==='y') {
 //   console.log(food);
   alert('Ofc not');
 
-}else if (food==='no') {
+}else if (food==='no'|| food==='n') {
 //   console.log(food);
   alert('You are on point');
 
@@ -121,11 +121,11 @@ if (food==='yes') {
 let music=prompt('Do i like Music');
 music=music.toLowerCase();
 
-if (music==='yes') {
+if (music==='yes' || music==='y') {
 //   console.log(music);
   alert('chill Music');
 
-}else if (music==='no') {
+}else if (music==='no'|| music==='n') {
 //   console.log(music);
   alert('Really??!! Who dose not like Music?');
 
