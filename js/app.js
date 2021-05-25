@@ -1,8 +1,8 @@
 'use strict';
 
-let userName=prompt('What is your name?');
+let userName = prompt('What is your name?');
 // console.log(userName);
-alert ( 'Hello there,' + userName.toUpperCase());
+alert('Hello there,' + userName.toUpperCase());
 
 // Question
 
@@ -46,93 +46,125 @@ if (age===true){
 
 // Question 1
 
-let live=prompt('Do i live in Jordan? '+userName.toUpperCase());
-live=live.toLowerCase();
+// let live=prompt('Do i live in Jordan? '+userName.toUpperCase());
+// live=live.toLowerCase();
 
-if (live==='yes'|| live==='y'){
-  alert(userName + ',It is correct');
+// if (live==='yes'|| live==='y'){
+//   alert(userName + ',It is correct');
 
-}else if (live==='no' || live==='n'){
-//   console.log(live);
-  alert('Wrong answer');
+// }else if (live==='no' || live==='n'){
+// //   console.log(live);
+//   alert('Wrong answer');
 
-}else {
-//   console.log(live);
-  alert('Next time only answer with yes/no');
+// }else {
+// //   console.log(live);
+//   alert('Next time only answer with yes/no');
+// }
+
+// // Question 2
+
+// let travel=prompt('Do you think i like to travel ' + userName.toUpperCase() +'?');
+// travel=travel.toUpperCase();
+
+// if (travel==='YES' || travel==='Y'){
+// //   console.log(travel);
+//   alert('Yes i like travelling.');
+
+// }else if(travel==='NO' || travel==='N'){
+// //   console.log(travel);
+//   alert('Wrong maybe next time. '+ userName.toUpperCase());
+
+// }else {
+// //   console.log(travel);
+//   alert('Next time your answer should be either Yes or No.');
+// }
+
+// // Question 3
+
+// let speak=prompt('Do you think ' +userName+ ' that i speak German?');
+// speak=speak.toLowerCase();
+
+// if (speak==='yes' || speak==='n') {
+// //   console.log(speak);
+//   alert('Yes i do');
+
+// }else if (speak==='no'|| speak==='y') {
+// //   console.log(speak);
+//   alert('Wrong answer');
+// } else {
+// //   console.log(speak);
+//   alert('Next time your answer should be either Yes/No.');
+
+// }
+
+// // Question 4
+
+// let food=prompt('Do you think i like Mansaf With chicken');
+// food=food.toLowerCase();
+
+// if (food==='yes' || food==='y') {
+// //   console.log(food);
+//   alert('Ofc not');
+
+// }else if (food==='no'|| food==='n') {
+// //   console.log(food);
+//   alert('You are on point');
+
+// }else{
+// //   console.log(food);
+//   alert('Yes or No answers');
+
+// }
+
+// // Question 5
+
+// let music=prompt('Do i like Music');
+// music=music.toLowerCase();
+
+// if (music==='yes' || music==='y') {
+// //   console.log(music);
+//   alert('chill Music');
+
+// }else if (music==='no'|| music==='n') {
+// //   console.log(music);
+//   alert('Really??!! Who dose not like Music?');
+
+// }else{
+// //   console.log(music);
+//   alert('Yes or No answers ONLY');
+
+// }
+
+// Question 6
+
+let weight=93;
+
+let guessWeight = prompt('How much do i weight in kilos?');
+
+for ( let i = 0 ; i<=3; i++){
+
+  if (guessWeight == weight) {
+    alert('correct');
+    break;
+
+  }else if (guessWeight > weight ){
+
+    alert('too high');
+    guessWeight = prompt('How much do i weight in kilos?');
+
+  }else if (guessWeight < weight ) {
+    alert('too low');
+    guessWeight = prompt('How much do i weight in kilos?');
+
+
+  }else {
+    alert('Next time enter a number');
+    guessWeight = prompt('How much do i weight in kilos?');
+  }
 }
 
-// Question 2
 
-let travel=prompt('Do you think i like to travel ' + userName.toUpperCase() +'?');
-travel=travel.toUpperCase();
+// Question 7
 
-if (travel==='YES' || travel==='Y'){
-//   console.log(travel);
-  alert('Yes i like travelling.');
+alert('Enjoy displaying my work ' + userName);
 
-}else if(travel==='NO' || travel==='N'){
-//   console.log(travel);
-  alert('Wrong maybe next time. '+ userName.toUpperCase());
-
-}else {
-//   console.log(travel);
-  alert('Next time your answer should be either Yes or No.');
-}
-
-// Question 3
-
-let speak=prompt('Do you think ' +userName+ ' that i speak German?');
-speak=speak.toLowerCase();
-
-if (speak==='yes' || speak==='n') {
-//   console.log(speak);
-  alert('Yes i do');
-
-}else if (speak==='no'|| speak==='y') {
-//   console.log(speak);
-  alert('Wrong answer');
-} else {
-//   console.log(speak);
-  alert('Next time your answer should be either Yes/No.');
-
-}
-
-// Question 4
-
-let food=prompt('Do you think i like Mansaf With chicken');
-food=food.toLowerCase();
-
-if (food==='yes' || food==='y') {
-//   console.log(food);
-  alert('Ofc not');
-
-}else if (food==='no'|| food==='n') {
-//   console.log(food);
-  alert('You are on point');
-
-}else{
-//   console.log(food);
-  alert('Yes or No answers');
-
-}
-
-// Question 5
-
-let music=prompt('Do i like Music');
-music=music.toLowerCase();
-
-if (music==='yes' || music==='y') {
-//   console.log(music);
-  alert('chill Music');
-
-}else if (music==='no'|| music==='n') {
-//   console.log(music);
-  alert('Really??!! Who dose not like Music?');
-
-}else{
-//   console.log(music);
-  alert('Yes or No answers ONLY');
-
-}
-
-alert('Enjoy displaying my work' + userName);
