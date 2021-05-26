@@ -186,7 +186,7 @@ question6();
 
 
 // Question 7
-
+function question7() {
 let guessAnswer='';
 
 let answers=['spain','germany','france','aqaba'];
@@ -225,10 +225,10 @@ hasAttempts: while (attemps) {
 }
 
 if (!attemps) {
-  alert('here ae the correct answers ' + answers);
+  alert('here are the correct answers ' + answers);
 }
-
-
+}
+question7();
 
 
 
