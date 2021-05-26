@@ -107,7 +107,7 @@ score++
 }
 question3();
 // // Question 4
-
+function question4() {
 let food=prompt('Do you think i like Mansaf With chicken');
 food=food.toLowerCase();
 
@@ -125,7 +125,8 @@ if (food==='yes' || food==='y') {
   alert('Yes or No answers');
 
 }
-
+}
+question4();
 // // Question 5
 
 let music=prompt('Do i like Music');
