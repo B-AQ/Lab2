@@ -128,7 +128,7 @@ if (food==='yes' || food==='y') {
 }
 question4();
 // // Question 5
-
+function question5() {
 let music=prompt('Do i like Music');
 music=music.toLowerCase();
 
@@ -146,7 +146,8 @@ if (music==='yes' || music==='y') {
   alert('Yes or No answers ONLY');
 
 }
-
+} 
+question5() ;
 // Question 6
 
 // 1
