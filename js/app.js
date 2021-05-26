@@ -149,7 +149,7 @@ if (music==='yes' || music==='y') {
 } 
 question5() ;
 // Question 6
-
+function question6() {
 // 1
 let weight=93;
 let guessWeight='';
@@ -180,7 +180,8 @@ for (let i = 0; i<4; i++){
   }
   // console.log(i);
 }
-
+}
+question6();
 
 
 
