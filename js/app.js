@@ -46,6 +46,8 @@ if (age===true){
 
 
 // Question 1
+function question1() {
+  
 
 let live=prompt('Do i live in Jordan? '+userName.toUpperCase());
 live=live.toLowerCase();
@@ -62,9 +64,10 @@ if (live==='yes'|| live==='y'){
 //   console.log(live);
   alert('Next time only answer with yes/no');
 }
-
+}
+question1()
 // // Question 2
-
+function question2() {
 let travel=prompt('Do you think i like to travel ' + userName.toUpperCase() +'?');
 travel=travel.toUpperCase();
 
@@ -81,9 +84,10 @@ if (travel==='YES' || travel==='Y'){
 //   console.log(travel);
   alert('Next time your answer should be either Yes or No.');
 }
-
+}
+question2() ;
 // // Question 3
-
+function question3() {
 let speak=prompt('Do you think ' +userName+ ' that i speak German?');
 speak=speak.toLowerCase();
 
@@ -100,9 +104,10 @@ score++
   alert('Next time your answer should be either Yes/No.');
 
 }
-
+}
+question3();
 // // Question 4
-
+function question4() {
 let food=prompt('Do you think i like Mansaf With chicken');
 food=food.toLowerCase();
 
@@ -120,9 +125,10 @@ if (food==='yes' || food==='y') {
   alert('Yes or No answers');
 
 }
-
+}
+question4();
 // // Question 5
-
+function question5() {
 let music=prompt('Do i like Music');
 music=music.toLowerCase();
 
@@ -140,9 +146,10 @@ if (music==='yes' || music==='y') {
   alert('Yes or No answers ONLY');
 
 }
-
+} 
+question5() ;
 // Question 6
-
+function question6() {
 // 1
 let weight=93;
 let guessWeight='';
@@ -173,12 +180,13 @@ for (let i = 0; i<4; i++){
   }
   // console.log(i);
 }
-
+}
+question6();
 
 
 
 // Question 7
-
+function question7() {
 let guessAnswer='';
 
 let answers=['spain','germany','france','aqaba'];
@@ -217,10 +225,10 @@ hasAttempts: while (attemps) {
 }
 
 if (!attemps) {
-  alert('here ae the correct answers ' + answers);
+  alert('here are the correct answers ' + answers);
 }
-
-
+}
+question7();
 
 
 
