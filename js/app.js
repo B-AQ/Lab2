@@ -67,7 +67,7 @@ if (live==='yes'|| live==='y'){
 }
 question1()
 // // Question 2
-
+function question2() {
 let travel=prompt('Do you think i like to travel ' + userName.toUpperCase() +'?');
 travel=travel.toUpperCase();
 
@@ -84,7 +84,8 @@ if (travel==='YES' || travel==='Y'){
 //   console.log(travel);
   alert('Next time your answer should be either Yes or No.');
 }
-
+}
+question2() ;
 // // Question 3
 
 let speak=prompt('Do you think ' +userName+ ' that i speak German?');
