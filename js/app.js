@@ -46,6 +46,8 @@ if (age===true){
 
 
 // Question 1
+function question1() {
+  
 
 let live=prompt('Do i live in Jordan? '+userName.toUpperCase());
 live=live.toLowerCase();
@@ -62,7 +64,8 @@ if (live==='yes'|| live==='y'){
 //   console.log(live);
   alert('Next time only answer with yes/no');
 }
-
+}
+question1()
 // // Question 2
 
 let travel=prompt('Do you think i like to travel ' + userName.toUpperCase() +'?');
