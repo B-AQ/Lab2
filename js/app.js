@@ -87,7 +87,7 @@ if (travel==='YES' || travel==='Y'){
 }
 question2() ;
 // // Question 3
-
+function question3() {
 let speak=prompt('Do you think ' +userName+ ' that i speak German?');
 speak=speak.toLowerCase();
 
@@ -104,7 +104,8 @@ score++
   alert('Next time your answer should be either Yes/No.');
 
 }
-
+}
+question3();
 // // Question 4
 
 let food=prompt('Do you think i like Mansaf With chicken');
